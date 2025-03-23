@@ -18,6 +18,8 @@ Before running the server for the first time:
 
 - [foreign keys](https://www.sqlite.org/foreignkeys.html)
 
+- [Date And Time Functions](https://www.sqlite.org/lang_datefunc.html)
+
 ## Other
 
 - [comments-project](https://github.com/danidiaz/comments-project)
