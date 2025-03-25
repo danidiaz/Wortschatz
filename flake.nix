@@ -15,7 +15,7 @@
             # https://ryantm.github.io/nixpkgs/builders/special/mkshell/
             pkgs.mkShell {
                 packages = [
-                    pkgs.sqlite
+                    pkgs.sqlite-interactive
                 ];
             };
       };
