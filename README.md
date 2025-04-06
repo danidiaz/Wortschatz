@@ -33,3 +33,11 @@ Before running the server for the first time:
 
 - [comments-project](https://github.com/danidiaz/comments-project)
 
+- [unix epoch in Haskell](https://stackoverflow.com/a/17909816/1364288)
+
+    ```
+    > :m + Data.Time.Clock.POSIX
+    > round `fmap` getPOSIXTime 
+    1375040716
+    it :: Integer
+    ```
