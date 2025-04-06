@@ -3,6 +3,7 @@
 Before running the server for the first time:
 
     sqlite3 db.sqlite < schema.sql
+    sqlite3 db.sqlite 
 
 # Links
 
