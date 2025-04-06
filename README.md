@@ -21,6 +21,14 @@ Before running the server for the first time:
 
 - [Date And Time Functions](https://www.sqlite.org/lang_datefunc.html)
 
+    ```
+    sqlite> select unixepoch('now');                                                                                                                                           1743960558
+    sqlite> select datetime(1743960449,'unixepoch');                                                                                                                           2025-04-06 17:27:29
+    sqlite> select datetime(1743960449);
+
+    sqlite>                                 
+    ```
+
 ## Other
 
 - [comments-project](https://github.com/danidiaz/comments-project)
